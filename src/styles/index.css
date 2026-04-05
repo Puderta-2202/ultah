@@ -1,0 +1,16 @@
+@import "./fonts.css";
+@import "./tailwind.css";
+@import "./theme.css";
+
+/* --- Sembunyikan Scrollbar tapi tetap bisa di-scroll --- */
+
+/* Untuk browser Chrome, Safari, dan Opera */
+.hilangkan-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Untuk browser Firefox, IE, dan Edge */
+.hilangkan-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

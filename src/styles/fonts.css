@@ -1,0 +1,8 @@
+/* Mengambil font dari Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap");
+
+/* Membuat class font-handwritten yang sudah kita panggil di App.tsx */
+.font-handwritten {
+  /* Ganti 'Caveat' menjadi 'Dancing Script' jika Anda lebih suka gaya tegak bersambung yang klasik */
+  font-family: "Caveat", cursive;
+}
