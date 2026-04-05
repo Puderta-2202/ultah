@@ -44,46 +44,38 @@ export default function App() {
 
   // DAFTAR MEDIA LOKAL
   const mediaItems = [
-    { type: "image", url: "public/assets/images/1.jpeg", alt: "First Date" },
-    {
-      type: "video",
-      url: "public/assets/video/1.mp4",
-      alt: "Momen Spesial Ultah",
-    },
-    { type: "image", url: "public/assets/images/2.jpeg", alt: "Kenangan 2" },
-    {
-      type: "video",
-      url: "public/assets/video/3.mp4",
-      alt: "Momen Spesial Ultah",
-    },
-    { type: "image", url: "public/assets/images/3.jpeg", alt: "Kenangan 3" },
-    { type: "video", url: "public/assets/video/2.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/4.jpeg", alt: "Kenangan 4" },
-    { type: "video", url: "public/assets/video/4.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/5.jpeg", alt: "Kenangan 5" },
-    { type: "video", url: "public/assets/video/5.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/6.jpeg", alt: "Kenangan 6" },
-    { type: "image", url: "public/assets/images/7.jpeg", alt: "Kenangan 7" },
-    { type: "video", url: "public/assets/video/6.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/8.jpeg", alt: "Kenangan 8" },
-    { type: "image", url: "public/assets/images/9.jpeg", alt: "Kenangan 9" },
-    { type: "video", url: "public/assets/video/7.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/10.jpeg", alt: "Kenangan 10" },
-    { type: "image", url: "public/assets/images/11.jpeg", alt: "Kenangan 11" },
-    { type: "image", url: "public/assets/images/12.jpeg", alt: "Kenangan 12" },
-    { type: "video", url: "public/assets/video/8.mp4", alt: "Berbagi Bersama" },
-    { type: "image", url: "public/assets/images/13.jpeg", alt: "Kenangan 13" },
-    { type: "image", url: "public/assets/images/14.jpeg", alt: "Kenangan 14" },
-    { type: "image", url: "public/assets/images/15.jpeg", alt: "Kenangan 15" },
-    { type: "image", url: "public/assets/images/16.jpeg", alt: "Kenangan 16" },
-    { type: "image", url: "public/assets/images/17.jpeg", alt: "Kenangan 17" },
-    { type: "image", url: "public/assets/images/18.jpeg", alt: "Kenangan 18" },
-    { type: "image", url: "public/assets/images/19.jpeg", alt: "Kenangan 19" },
-    { type: "image", url: "public/assets/images/20.jpeg", alt: "Kenangan 20" },
-    { type: "image", url: "public/assets/images/21.jpeg", alt: "Kenangan 21" },
-    { type: "image", url: "public/assets/images/22.jpeg", alt: "Kenangan 22" },
-    { type: "image", url: "public/assets/images/23.jpeg", alt: "Kenangan 23" },
-    { type: "image", url: "public/assets/images/24.jpeg", alt: "Kenangan 24" },
+    { type: "image", url: "/assets/images/1.jpeg", alt: "First Date" },
+    { type: "video", url: "/assets/video/1.mp4", alt: "Momen Spesial Ultah" },
+    { type: "image", url: "/assets/images/2.jpeg", alt: "Kenangan 2" },
+    { type: "video", url: "/assets/video/3.mp4", alt: "Momen Spesial Ultah" },
+    { type: "image", url: "/assets/images/3.jpeg", alt: "Kenangan 3" },
+    { type: "video", url: "/assets/video/2.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/4.jpeg", alt: "Kenangan 4" },
+    { type: "video", url: "/assets/video/4.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/5.jpeg", alt: "Kenangan 5" },
+    { type: "video", url: "/assets/video/5.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/6.jpeg", alt: "Kenangan 6" },
+    { type: "image", url: "/assets/images/7.jpeg", alt: "Kenangan 7" },
+    { type: "video", url: "/assets/video/6.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/8.jpeg", alt: "Kenangan 8" },
+    { type: "image", url: "/assets/images/9.jpeg", alt: "Kenangan 9" },
+    { type: "video", url: "/assets/video/7.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/10.jpeg", alt: "Kenangan 10" },
+    { type: "image", url: "/assets/images/11.jpeg", alt: "Kenangan 11" },
+    { type: "image", url: "/assets/images/12.jpeg", alt: "Kenangan 12" },
+    { type: "video", url: "/assets/video/8.mp4", alt: "Berbagi Bersama" },
+    { type: "image", url: "/assets/images/13.jpeg", alt: "Kenangan 13" },
+    { type: "image", url: "/assets/images/14.jpeg", alt: "Kenangan 14" },
+    { type: "image", url: "/assets/images/15.jpeg", alt: "Kenangan 15" },
+    { type: "image", url: "/assets/images/16.jpeg", alt: "Kenangan 16" },
+    { type: "image", url: "/assets/images/17.jpeg", alt: "Kenangan 17" },
+    { type: "image", url: "/assets/images/18.jpeg", alt: "Kenangan 18" },
+    { type: "image", url: "/assets/images/19.jpeg", alt: "Kenangan 19" },
+    { type: "image", url: "/assets/images/20.jpeg", alt: "Kenangan 20" },
+    { type: "image", url: "/assets/images/21.jpeg", alt: "Kenangan 21" },
+    { type: "image", url: "/assets/images/22.jpeg", alt: "Kenangan 22" },
+    { type: "image", url: "/assets/images/23.jpeg", alt: "Kenangan 23" },
+    { type: "image", url: "/assets/images/24.jpeg", alt: "Kenangan 24" },
   ];
 
   // === ISI HALAMAN SCRAPBOOK ===
@@ -116,7 +108,7 @@ export default function App() {
     <div className="min-h-screen overflow-hidden relative bg-black">
       {/* Element Audio Background (Lokal MP3) */}
       <audio ref={audioRef} loop>
-        <source src="public/assets/music/Euphoria.mp3" type="audio/mpeg" />
+        <source src="/assets/music/Euphoria.mp3" type="audio/mpeg" />
       </audio>
 
       {/* --- WELCOME SCREEN OVERLAY --- */}
